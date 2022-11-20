@@ -4,7 +4,9 @@ import java.util.List;
 
 import org.springframework.data.repository.CrudRepository; //com essa importação e o extends agora tenhos as funcionalidades de banco de dados
 
-import com.devProjeto.userProj.entidades.ProdutoModelo; //está suprindo o tipo do CrudRepository
+import com.devProjeto.userProj.entidades.ProdutoModelo;
+
+ //está suprindo o tipo do CrudRepository
 
 
 public interface ProdutoRepositorio extends CrudRepository<ProdutoModelo, Integer> { //escrevi extends crud dei Ctrl + Espaço
